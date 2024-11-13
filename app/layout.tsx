@@ -41,6 +41,11 @@ const workSans = localFont({
   variable: "--font-work-sans"
 })
 
+export const metadata: Metadata = {
+  title: "Next Project",
+  description: "Pitch, Vote and Grow"
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
