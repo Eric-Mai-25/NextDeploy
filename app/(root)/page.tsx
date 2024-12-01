@@ -10,7 +10,7 @@ export default async function Home({searchParams}: {
     <>
       <section className="pink_container">
         <h1 className="heading">State your mind<br /> Your One stop for gaming news</h1>
-        <p className="sub-heading !max-w-3xl"> Submit Ideas, Vote on Pitches, and Get Noticed in Virtual Competitions</p>
+        <p className="sub-heading !max-w-3xl"> Create and share your own articles.</p>
         <SearchForm query={query}/>
       </section>
     </>
